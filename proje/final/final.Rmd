@@ -1,0 +1,209 @@
+---
+title: "Emperyalizmin Ülkelerin Gelişimine ve Ekonomisine Etkisi"
+author: 
+  - Hasan Umut Avcı[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+abstract: |
+  Emperyalizm uygulayan ve maruz kalan ülkelerin günümüzdeki gayrisafi milli hasılalarının emperyalizmle ilişkisi olup olmadığını inceledik.
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 20080258, [Github Repo](https://github.com/umutavci4/proje)
+
+
+
+# Giriş
+Emperyalizm, yayılmacılık yoluyla kurulan, gücün elde tutulup başka bir ulus üzerinde kurulan sert hegemonyaya verilen addır. Hegemonya kuran güç, kendi çıkarlarını ön planda tutarak bir başka ulus üzerinde sömürgeci politikalar uygular. Bunun neticesinde de sömüren güç ekonomik de dahil olmak üzere birtakım kazançlar elde ederken sömürülen taraf için ise aynı şeyi söylemek genelde mümkün olmaz. Harcard Datasets'ten bulmuş olduğum 15 değişkenli ve 52 gözlemli veri seti, içerisinde belli başlı ülkelerin gayri safi milli hasılasını, nüfusuna göre dini inanışları, yıllar içindeki gelişim puanları gibi değişkenleri barındırmaktadır. Bu veri setini seçmemin sebebi emperyalizmin hakim olduğu ülkelerin sömürgeleşmesinin ardından ortaya çıkan ekonomik tabloyu gözler önüne sermektir.
+Sömürgecilik emperyalizmin “önsözü” olarak yorumlanabilir; bir başka
+deyişle emperyalizmin altyapısını oluşturmaktadır. Nitekim 19. yüzyılın sonlarına
+doğru emperyalizm sömürgeci politikaları etkin olarak kullanmıştır. Aslında yeni
+dünyanın keşfi ile birlikte 16. yüzyılda sömürgecilik ortaya çıkmış, giderek
+yaygınlaşmaya başlamıştır. Önceleri siyasi, askeri, dini hatta prestij nedeniyle ivme
+kazanan sömürgecilik giderek ekonomik temele sahip olmuştur. 17. yüzyıldaki köle
+ticareti, sömürgelerdeki plantasyonlarda kölelerin çalıştırılmaları, sömürgelerin
+Avrupa ülkeleri için büyük bir kar ve birikim kaynağı olmasını sağlamıştır. Birinci
+ve İkinci Sanayi Devriminin yol açtığı sınai faaliyetlerdeki hızlı artış; ucuz
+hammadde ve mamul mallara pazar bulma ihtiyacını doğurmuş ve sömürgeci
+politikaların yoğunluğu artırılmıştır. [@sonmezsonmez]
+
+## Çalışmanın Amacı
+Bu çalışmada emperyalizmin boyunduruğu altında yaşamış ve emperyalist emellerle hareket etmiş olan ülkelerin zaman içerisindeki gelişimlerini, ekonomilerini konu alan veri setlerini inceledik. Emperyalizmin bir ülke üzerindeki olumlu olumsuz etkilerine, gayri safi yurt içi hasılanın emperyalizmle doğrudan bir bağı olup olmadığına, ekonomik gelişmelerin emperyalizmle olan bağına veri setlerini analiz ederek istatistiki verilere derleyeceğiz.
+
+## Literatür 
+
+XVI. yüzyılda başlayan ve XIX. yüzyılda kemale eren Avrupa’nın dönüşümü tüm dünyanın kaderini ve geleceğini etkileyen bir şekil almıştır. Emperyalizm çağı XIX. yüzyılda Avrupa’ya modern görünümünü veren iktisadî, siyasî, insanî dönüşümler üzerinde yükselen bir dönem olarak ortaya çıktı. Bu dönüşümler Avrupalı devletlerin olduğu kadar bireylerin ve toplumsal yapıları davranışlarına da yön veren bir olgu olarak emperyalizmi ortaya çıkardı. Emperyalizm ile birlikte yayılma ve şiddet belirgin bir şekilde artmış vedünyada hızlı bir ekonomik, siyasal, kültürel ve sosyal değişim yaşanmıştır. Böylece emperyalizm bir sistem olarak son derece etkin ve etkili bir değişim dinamiği olmuştur. [@iusosyoloji4737]
+Az gelişmiş ülkelerin dış fonlara yönelik mevcut ve gelecekteki gereksinimlerinin kesin miktarları ve oranları burada bizi ilgilendirmez. Bununla birlikte, daha az somut olsa da bazı daha büyük faktörlerden uygun şekilde bahsedilebilir. Birincisi ve en önemlisi, dünyadaki sermaye kıtlığıdır. Doğu Afrika Kraliyet Komisyonu'nun 1955'te doğru bir şekilde çıkardığı gibi, "Afrika'nın sermayeye, sermayenin Afrika'ya ihtiyacından daha fazla ihtiyacı var." "Kapılar açılırsa, herhangi bir az gelişmiş ülkeyi tutmayı bekleyen büyük bir yabancı sermaye seli yoktur." Sterlin Bölgesi, Orta Afrika Federasyonu için, 12 İngiliz Milletler Topluluğu ülkelesi ve sömürge imparatorlukları "net sermaye ithalatının ana tedarikçisi" olmaya devam edebilir. Bununla birlikte, savaş sonrası dönemde Birleşik Devletler, dünyanın önde gelen alacaklı ülkesi olarak Büyük Britanya'nın yerini almıştır. Amerika Birleşik Devletleri dünyanın önde gelen özel sermaye ihracatçısı haline geldi. Ancak savaş sonrası yıllarda bu özel sermaye ihracatının gerçek düzeyi, bir şekilde az da olsa, 1920'lerin zirve yıllarında ABD'nin sermaye ihracından daha düşük olmuştur. 1956'da Amerika Birleşik Devletleri'nden büyük ölçüde artan özel sermaye çıkışı bile, satın alma gücü açısından, 1928'de ulaşılan tüm zamanların zirvesinin altında kaldı ve temsil etti: Tabii ki, ulusal üretimin ve ABD'nin uluslararası ticaret işlemlerinin çok daha küçük bir kısmı. Ayrıca, özel fonlardaki bu artan hareketin açık farkla büyük bir kısmı, Kanada'daki yatırımlardaki önemli artış, Trinidad'da bir İngiliz petrol şirketinin satın alınması ve Venezuela'da yeni petrol imtiyazlarının alınmasıyla açıklanmıştı. 1920'lerin koşullarında oldukça cazip yatırım fırsatları sağlayacak olan dünyanın birçok yerindeki yatırımlara karşı özel yatırımcılar tarafından bir "grev" yaklaşan bir şeydi. Profesör Cairncross tarafından yapılan etkileyici çalışma, Amerika Birleşik Devletleri, Kanada ve Avustralya'nın hızlı büyümesini gören Birinci Dünya Savaşı'ndan önceki uzun nesilde kronik bir sterlin sıkıntısı olmadığını gösteriyor. Bununla birlikte, bugün kronik bir dolar kıtlığı var, öyle ki, Profesör Cairncross'un belirttiği gibi, "Amerikan kaynaklarının aynı oranı, İngiltere'nin 1913'te (çok daha küçük bir ulusal gelirden) ayırdığı kadar yabancı yatırıma ayrılsaydı, akış yatırımın otuz kat daha büyük olması gerekir. Tüm Marshall Planı yılda iki kez yapılmalıdır." [@britnell44]
+"Emperyalizm"in ve onun farklı evreleriyle ilişkili dinamik özelliklerin Marksist analizi, aşağıdaki ana nedenlerden dolayı sistematik bir bilimsel yaklaşımı temsil eder:
+(1) Üretim güçlerinin ve ilişkilerinin gelişiminin her aşamasının işleyişinde sınıf güçlerinin ortaya çıkışına, hizalanmasına ve çelişkisine ve bir aşamadan diğerine niteliksel sıçramaya yaklaşımı bakımından tarihseldir; (2) Diyalektiktir, yani Marksizm toplumsal, ekonomik ve politik değişimi çelişki merceğinden, yani egemen (yani, kaynakları kontrol eden) ve ezilen (yani, emek sağlayan) sınıflar arasındaki artan çatışma, kısa ve orta vadede evrimsel araçlarla ayarlanabilecek, ancak uygun çözümü ve karşıt sınıflar arasındaki iktidar ilişkilerinde buna bağlı değişiklikler için devrimci araçlar gerektirecek ilişkiler; (3) Belirli sosyal çevrelerdeki gelişmeleri daha geniş bir küresel veya uluslararası bağlama yerleştirmeye çalışmak anlamında karşılaştırmalıdır; (4) Ampirist olmanın aksine ampiriktir; başka bir deyişle, Marksist yöntem, bu tür materyallerin öğrencilerin teoriyi detaylandırmasına ne ölçüde yardımcı olduğunu incelemek ve çelişkili görünen verileri incelemek için veri toplamaya ve somut durumların incelenmesine büyük önem verir. "sınıf ilişkilerinin" yorumunun sürekli bir eleştirisini sağlama görüşüyle teorinin zerresi. Marksist yöntem, "kaba ampirizme" veya "ölçülebilecek herhangi bir şeyin ölçülmesine" veya "ölçmek için ölçmeye" yer olmaması anlamında ampirist değildir; ne de "olamayacak olan" şeklindeki bilim dışı görüşe tahammül edemez.
+ölçülen, sosyal, politik ve ekonomik analiz ve açıklamaların üretilmesinde dikkate alınmaya değmez; (5) Disiplinler arasıdır, tarihsel temelli dinamik analizlerin işaret edebileceği genel sonuçlara dayanmak için bir dizi farklı sosyal bilimi getirir.[@sathyamurthy777]
+Marksist tanımdan farklı olarak, bu analizde kullanılan emperyalizm kavramı, ekonomik motivasyonların ve ekonomik kontrol yöntemlerinin ötesine geçecektir. Çünkü emperyalizm, bir devletin gücünün herhangi bir yönünü, başka bir devletin genel gelişimini veya idaresini, hangi amaç ve yöntemle olursa olsun kontrol etmek ve yönlendirmek için kullandığı her durumda var olur. Bu tür bir kontrolün nedenleri hanedan veya bürokratik saiklerde, askeri mülahazalarda, kültürel, dinsel veya ekonomik baskılarda bulunabilir. Emperyalist kontrol, ilhak, himaye bölgelerinin kurulması yoluyla veya yalnızca ekonomik nüfuz ve devlet yaşamının kilit alanları -dış ilişkiler, savunma, merkez bankacılığı, ekonomik planlama veya vergilendirme- üzerinde yabancı kontrolü yoluyla işleyebilir. Yabancı kontrolünün zorunlu olarak mağdur devletin sömürüsüyle sonuçlanması gerektiğinin varsayılmasına gerek yoktur; ancak mağdur devlete sağlanan faydaların tesadüfi olduğu anlaşılmalıdır, çünkü
+  emperyalist devletin kesinlikle kendi çıkarları doğrultusunda hareket ettiği varsayılır.
+  Böyle bir emperyalist model oluşturmak için üç faktör gereklidir: (1)
+  gerekli kontrolü uygulama gücü, (2) tanımlanabilir bir varlığın varlığı
+  bu kontrolün dayatılmasının nedeni ve (3)
+  emperyalizmi, daha zayıf bir devletin işlerine geçici müdahaleden ayırmak için yeterince uzun bir süre için kontrol modeli. [@ernest222]
+  Küresel meta zincirleri, Global Güneyin yoksul ülkelerindeki düşük ücretler ve
+üretkenlik çerçevesinde daha düşük emek maliyetlerinden faydalanmak üzere
+örgütlenmektedir. Örneğin 2014’te Hindistan’daki, Çin’deki, Meksika’daki ve
+Endonezya’daki birim emek maliyeti, sırasıyla ABD’dekinin %37’si, %46’sı, %43’ü
+ve %62’si oranındadır. Bu düşük birim emek maliyeti oranlarının bir kısmı düşük
+ücret seviyelerinden, bir kısmı da Global Güneydeki ihracat platformlarına
+getirilen ileri teknolojiyle birlikte Global Kuzeyle karşılaştırılabilir seviyede
+bir üretkenlik sağlanmasından kaynaklanmaktadır (Foster ve Suwandi, 2020).
+Şirketler, düşük birim emek maliyetleri sayesinde, yoksul ülkelerde üretilen
+malların ihracat fiyatlarından devasa kâr marjları sağlamaktadır. Bu, Global
+Kuzey ve Global Güneydeki ülkeler arasındaki ücret farklılığının üretkenlikteki
+farktan daha büyük olduğu entegre bir küresel sömürü sistemidir. Çünkü yerel
+kırsal toplulukların ucuz emeğiyle sağlanan kâr, şirketlerin genelde ABD, AB ve
+Japonya’da bulunan karargâhlarına ve hissedarlarına gitmektedir.
+Küresel olarak üretimin yeniden yapılanması, dünya sermayesinin ve finansının
+merkezlerinin menfaati için bir yandan Global Güneydeki işçilerin aşırı ve
+süper sömürüsüne dayalı küresel bir emek arbitrajı doğururken, eş zamanlı
+olarak çokuluslu tarım ticareti şirketlerinin Global Güneydeki toprakları satın
+almasıyla oluşan küresel bir toprak arbitrajına dayanmaya başlamıştır. Global
+Güneyin birçok ülkesinde toprak fiyatları, toprak rantına göre çok düşüktür;
+yani toprağın üretebildiği şey için değeri oldukça azdır. Düşük fiyatlı toprak ve
+yüksek toprak rantı arasındaki farkın ele geçirilmesi (arbitraj), sermayedarlara
+büyük bir kâr sağlamaktadır. Global Güneyin topraklarının küresel toprak
+pazarına sokulmasıyla birlikte toprak arbitrajı fırsatları artmış; bu eğilim, çiftlik
+hayvanlarının devasa besi ünitelerine ve monokültürüne dayalı küreselleşmiş bir
+meta üretimini başlatan Hayvancılık Devrimi ile beslenmiş ve büyük endüstriyel
+zincirler, sığır eti üretimi için bu ülkelerin tropik ormanlarına yönelmiştir.
+Global Güneyde şirketlerin et ihracatından kazandıkları dövizin her 1 Doları,
+sürdürülebilir tarımda çiftlik hayvanlarıyla sağlanan ekonomik sermayenin
+15 Dolarlık değerini imha etmektedir (McMichael, 2005: 286). Dolayısıyla
+sektördeki sermaye birikiminin yeniden üretimi için koşul, sürdürülemez
+ekoloji ve mülksüzleşmedir. Amerikan tüketicileri ithal her hamburger için 5
+Sent tasarruf ederken, her hamburger Orta Amerika’da otlak olarak kullanılan
+ormanların ortalama 5 metrekaresinin yok olmasına neden olmaktadır [@mulkiye852598]
+Vladimir İ.Lenin, bir asır önce yazdığı ve yukarıda bahsettiğimiz emperyalizm kuramlarıyla ilgili hâlâ devam etmekte olan tartışmalarda en önemli referans kaynaklarından birisi olarak gösterilen kitabında, kapitalizmin en yüksek aşaması olarak emperyalizmi
+gösteriyordu. Bu çalışma, kapitalizmin o dönemdeki yayılma koşullarında, kapitalizmle emperyalizm arasındaki organik bağı ayrıntılı olarak ortaya koyan ilk ciddi eser olması açısından önemliydi. Ondan sonraki emperyalizm kuramları da, bir iki uluslararası
+ilişkiler veya milliyetçilik kuramı dışında, doğrudan veya dolaylı
+olarak genellikle kapitalizm ile emperyalizm ilişkisi üzerine yoğunlaştılar. Elbette kapitalizm Lenin'in yaşadığı dönemden bugüne
+kadar çok farklı boyutlarda farklı egemenlik ilişkileri inşa etti ve
+bu egemenlik/sömürü ilişkileri çerçevesinde de kuramların içeriğinde değişiklik oldu. Yine de günümüze kadar gelindiğinde kuramlar içerisinde bazı orijinal yaklaşımları dışarıda tutmak mümkün. Kapitalizm ile emperyalizm ilişkisi genellikle siyaset bilimi,
+iktisat ve uluslararası ilişkiler disiplinleri çerçevesinde ele alınmıştır. Oysa kapitalizm, günümüzde son derece girift ilişkiler içerisine
+girmiş ve sadece ekonomik düzeni, üretim ilişkilerini ya da genel
+siyasal süreci gözlemleyerek çözümleyemeyeceğimiz karmaşık bir
+boyuta ulaşmıştır. Ekolojik/biyolojik sisteme yönelik geri dönülemez tahribatlar yaratacak boyutlara sahip olan kapitalizmin (veya
+daha genel bir ifadeyle metalaşmanın), özellikle de büyük ölçüde
+doğaya bağımlı olarak yaşayan sanayisi/teknolojisi zayıf ülkelerin
+habitatlarında (canlıların doğal yaşam alanlarında) nasıl bir
+emperyal tahakküm sistemi ortaya çıkardığı mevcut kuramsal birikimin sınırları içerisinde tam anlamıyla anlaşılamamakta, eksik
+kuramsal tespitler yanlış çözüm mekanizması doğurabilmektedir.
+Bizce, yaşamın makro kapsayıcı alanı ekolojik sistem (ekosistem)
+ve bu sistemin işleyişinin (ekolojik döngünün) temeli olan gıda
+(mikro alan) üzerinde kurulan tahakküm/iktidar ilişkisine odaklanılarak ve elbette mutlaka biyopolitik bir kavramsallaştırmayla
+ekolojik emperyalizm çözümlemesi yapılarak ve bu çerçevede bir
+kuramsal taslak oluşturarak gerçekliğin bütünlük içerisinde anlaşılabilmesi kolaylaşabilecektir.
+Emperyalizmin yeni yönelimi dikkate alındığında; bir ülkeye/bölgeye, o ülkenin/bölgenin iktisadi olarak bağlı olduğu egemen
+sistemlerin, başka devletlerin, egemen güçlerin, çok uluslu/ulus
+ötesi şirketlerin en genel tanımlamayla kendi sınıfsal toplumsal siyasi çıkarlarına dayalı olarak müdahale etmesi, bu müdahale ile o
+bölgenin ekolojik döngüsünün, yaşamsal sisteminin tahakküm
+altına sokulması, o bölgede yaşayan insanların yaşama hakları
+üzerine baskı kurulması ekolojik emperyalist süreç içerisinde değerlendirilebilecek bir durumu yansıtır. Burada ekolojik emperyalizm, emperyal süreç ile yeniden şekillenen, bozulan, başkalaşan,
+sömürülen ekosistemi açıklamak üzere kullandığımız bir kavramdır. Özellikle insanın da içinde bulunduğu canlılar dünyasının devamlılığı için “olmazsa olmaz” unsurları ifade eden, yani olmadığında ortaya çıkan sonuç yaşamın sonu demek olan su, gıda, tohum
+ve gen kaynakları üzerine kurulan emperyalist tahakkümü açıklayan bir kavramdır. Bu yüzden sadece emperyalizm değil, özellikle
+ekolojik emperyalizm kavramını kullanıyoruz.
+Ekolojik emperyalizmi, kuramsal çerçevesi ve içeriği günümüzde yeni yeni şekillenmeye başlayan, somutlaşmaya başlayan
+öncelikle bir disiplinlerarası inceleme konusu olarak değerlendirmek gerekmektedir. Bu çerçevede ekolojik emperyalizm sürecinin,
+müzminleşmiş ekolojik sorunların yaşamın sınırlarını zorlamasıyla
+birlikte günümüzde olgunlaşmaya başlasa da esas olarak yakın
+gelecekte kemale ereceğini söylemek mümkündür. Biyoteknoloji
+devriminin kapitalizmi yeni bir yönelime sokması, suyun, gıdanın
+metalaşması, doğal kaynaklar üzerindeki kâr amaçlı ulus ötesi şirketlerin hâkimiyet alanlarının iyice genişlemesinin sürdürülebilir
+yaşamı tehdit ettiği bir dönemde, içinde yaşamakta olduğumuz
+süreçte bu kuram daha anlaşılır bir hale gelmektedir. Elbette, daha
+önceki sömürgecilik, emperyalizm, dünya kapitalizmi veya küreselleşme ile ilgili akademik–bilimsel çalışmalarda da tarımsal yapılar, gıda, doğal kaynaklar, çok uluslu şirketlerin hegemonik gücü,
+teknolojinin ideolojisi, yeşil devrimin anlamı, gıda emperyalizmi
+ve yoksulluk gibi konular “emperyal” bir çerçevede ele alınmıştı.
+Ancak, bütün bu olgular, daha önceki kuramlardan farklı yeni ve
+çok boyutlu, hepsini kapsayıcı özelliği olan “ekolojik emperyalizm” kuramı çerçevesinde son zamanlarda yayınlanan ve genellikle kuramsal bir temele oturtulmadan yapılan az sayıdaki çalışmayı dikkate almazsak değinilen olgular değildi. Bu yeni kuramsal yaklaşım, daha öncekilerle de bağlantı kurularak ve o kuramların birikimini de kapsayacak şekilde yeni somut olgular dikkate
+alınarak ortaya konulursa süreç daha iyi anlaşılacaktır.[@msydergi1254211]
+
+# Veri 
+Veri setimi Harvard Dataverse'den aldım. Ham veri üzerinde birtakım değişiklikler yaptım, bazı değerleri küsuratından arındırarak yuvarladım. Ele almış olduğumuz ülkeler hem gelişmiş diyebileceğimiz hem de dünya standartlarına göre geri kalmış ülkeler. Değerlendirdiğimiz ülkeleri gelişim puanları bakımından kıyasladığımızda geniş bir skalaya sahip olduğunu görürüz. Bu da doğru veriye ulaşmak için bize bir avantaj sağlar. Ortalamalardan yola çıkarak emperyalizme maruz kalmış ülkelerin çoğunlukta olduğunu, araştırmamızda geniş bir yer kapladığını görürüz. Bu da araştırmamızın ana odağının az gelişmiş ülkelerin gayri safi milli hasıla bakımından hangi noktada olduğuyla ilişkilidir. Özet istatistiklere bakınca ülkelerin gayrisafi milli hasılaları arasındaki uçurumu emperyalizmle açıklamak mümkün gözüküyor. 500 yıl boyunca emperyalizme maruz kalmış ülkelerle hiçbir zaman emperyalist bir müdahaleye uğramamış ülkeler arasındaki adaletsizliği bu şekilde açıklayabiliriz.
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(here)
+emperyal <- read.csv2(here("C:/Users/ygzgl/Desktop/Final/data/emperyal.csv"))
+```
+
+
+
+```{r, echo=FALSE}
+library(xtable) 
+# devtools::install_github("emraher/summarytools")
+library(summarytools)
+st_options(lang = "tr")
+```
+
+
+
+```{r results='asis', echo=FALSE}
+emperyal %>%
+  select("years.over.imperial.domination", "gdp.per.capita", "gov.effectiveness", "years.under.imperial..domination", "development.composite.score.cdf") %>% 
+  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
+  xtable(caption = "Özet İstatistikler",
+         label = "tab:ozet",
+         align = c("l", "c", "c", "c", "c", "c")) %>% 
+  print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
+```
+
+
+# Yöntem ve Veri Analizi
+Bu çalışmada amacımıza ulaşmak için korelasyon yöntemi kullanarak verilerimizi analiz ettik. Veri setinde "emperyalizm altında yaşamış ülkeler" ve "emperyalizmle hüküm  sürmüş ülkeler"in gayrisafi milli hasılalarıyla aralarında bir korelasyon bulmak açısından bu yöntemi kullandık.Bu yöntem bize tam manasıyla duru bir sonuç vermedi çünkü "sonuç" kısmında da bahsedileceği üzere herhangi bir yöntem bize sonucu açıklamakta kadük kalacaktır. Farklı değişkenlerle yeniden değerlendirilmesi gerekmektedir. 
+
+
+```{r plot, fig.align='center', fig.cap='Grafik', echo=FALSE}
+emperyal %>%
+  tail(11) %>%
+  ggplot( aes(x = gdp.per.capita, y= years.under.imperial..domination)) +
+    geom_line( color = "purple") +
+    geom_point(shape = 21, color = "black", fill = "red", size = 6) +
+    ggtitle("Gayrisafi milli hasıla emperyalizm arasındaki ilişkisi")
+
+```
+
+
+
+
+
+
+\newpage
+# Sonuç
+Sonuç itibariyle bu çalışmada emperyalizmin boyunduruğu altında yaşamış ve emperyalizmin bizzatihi uygulayıcısı ülkelerin gayirisafi milli hasılaları arasında bir ilişki olup olmadığını inceledik. Emperyalizme maruz kalmak ve uygulayıcısı olmanın gayrisafi milli hasıla üzerinde doğrudan bir korelasyona sahip olmadığını görmüş olduk. Danimarka gibi emperyalizme maruz kalmış ülkeler bugün refah seviyesinin üstündeyken kimi emperyalist ülkeler ortalama gayrisafi milli hasılaya sahipler. Geçmişte emperyalizme maruz kalmış ülkelerin farklı değişkenler neticesinde gayrisafi milli hasılasını arttırabildiğine şahit olduk. Bu araştırma, farklı değişkenler de araştırmaya dahil edilip yeniden düzenlenirse en azından daha doğru bir sonuca ulaşabilir.
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
